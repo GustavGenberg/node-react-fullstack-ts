@@ -1,0 +1,19 @@
+{
+     "name": "node-react-fullstack-ts",
+     "version": "1.0.0",
+     "description": "",
+     "main": "./backend/build/index.js",
+     "dependencies": {
+          "typescript": "^3.3.3"
+     },
+     "scripts": {
+          "build": "cd ./frontend && npm build && cd ../backend && npm build"
+     },
+     "repository": {
+          "type": "git",
+          "url": "https://github.com//GustavGenberg/node-react-fullstack-ts.git"
+     },
+     "keywords": [],
+     "author": "",
+     "license": "ISC"
+}
